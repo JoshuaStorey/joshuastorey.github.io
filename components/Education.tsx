@@ -16,7 +16,7 @@ const Education = () => {
       <div className="md:flex items-center text-center justify-between p-4">
         <div className="mx-auto p-4">
           <Image
-            src="/images/asulogo.png"
+            src="images/asulogo.png"
             width={300}
             height={173}
             alt="Hero Image"
@@ -27,7 +27,7 @@ const Education = () => {
         </div>
         <div className="mx-auto">
           <Image
-            src="/images/salesforcebadge.png"
+            src="images/salesforcebadge.png"
             width={250}
             height={245}
             alt="Hero Image"

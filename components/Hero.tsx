@@ -38,7 +38,7 @@ const Hero = (props: Props) => {
         </div>
         <div className="p-8">
           <Image
-            src="/images/avataaars2.png"
+            src="images/avataaars2.png"
             width={256}
             height={256}
             alt="Hero Image"

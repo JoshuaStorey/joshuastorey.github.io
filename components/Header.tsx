@@ -20,7 +20,7 @@ const Header = (props: Props) => {
             duration={500}
           >
             <Image
-              src="/images/logo-no-background.svg"
+              src="images/logo-no-background.svg"
               width={70}
               height={70}
               alt="logo"
