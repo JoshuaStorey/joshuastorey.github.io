@@ -52,7 +52,7 @@ const Experience = () => {
       description:
         "Web application built using Nextjs, Typescript and TailwindCSS to display information about myself!",
       skills: ["Nextjs", "Typescript"],
-      github: "https://github.com/JoshuaStorey/HikingSwiftApp",
+      github: "https://github.com/JoshuaStorey/joshuastorey.github.io",
     },
   ];
   return (

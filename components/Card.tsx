@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 interface project {
   id: number;
   name: string;
@@ -22,7 +21,7 @@ const Card = ({ projects }: Props) => {
             className="w-full"
             width={256}
             height={256}
-            src="images/salesforcebadge.png"
+            src="images/.png"
             alt="Sunset in the mountains"
       />*/}
           <div className="px-6 py-4">

@@ -19,7 +19,7 @@ const Education = () => {
             src="images/asuLogo.png"
             width={300}
             height={173}
-            alt="Hero Image"
+            alt="Asu Image"
           ></Image>
           <h1 className="font-bold text-cool-blue-color">
             BACHELOR OF SCIENCE IN COMPUTER SCIENCE
@@ -30,7 +30,7 @@ const Education = () => {
             src="images/salesforcebadge.png"
             width={250}
             height={245}
-            alt="Hero Image"
+            alt="salesforce Image"
           ></Image>
           <h1 className="font-bold text-cool-blue-color">
             SALESFORCE CERTIFIED PLATFORM 1 DEVELOPER
