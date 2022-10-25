@@ -15,23 +15,23 @@ const Education = () => {
       ></div>
       <div className="md:flex items-center text-center justify-between p-4">
         <div className="mx-auto p-4">
-          <img
+          <Image
             src="images/asuLogo.png"
             width={300}
             height={173}
             alt="Hero Image"
-          ></img>
+          ></Image>
           <h1 className="font-bold text-cool-blue-color">
             BACHELOR OF SCIENCE IN COMPUTER SCIENCE
           </h1>
         </div>
         <div className="mx-auto">
-          <img
+          <Image
             src="images/salesforcebadge.png"
             width={250}
             height={245}
             alt="Hero Image"
-          ></img>
+          ></Image>
           <h1 className="font-bold text-cool-blue-color">
             SALESFORCE CERTIFIED PLATFORM 1 DEVELOPER
           </h1>
