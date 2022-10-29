@@ -37,7 +37,7 @@ const Card = ({ projects }: Props) => {
             {project.skills.map((skill) => (
               <span
                 key={Math.random()}
-                className=" bg-cool-blue-color rounded-full px-3 py-1 text-sm font-semibold text-main-color mr-2 mb-2 "
+                className=" bg-cool-blue-color inline-block rounded-full px-3 py-1 text-sm font-semibold text-main-color mr-2 mb-2 "
               >
                 {" "}
                 {skill}
