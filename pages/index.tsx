@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import { motion, useScroll } from "framer-motion";
+require("dotenv").config();
 const Home: NextPage = () => {
   return (
     <div>
