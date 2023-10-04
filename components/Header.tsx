@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Hamburger from "hamburger-react";
 import Image from "next/image";
+import { motion, useAnimation } from "framer-motion";
 type Props = {};
 
 const Header = (props: Props) => {
   const [isOpen, setOpen] = useState(false);
+  const animation = useAnimation();
 
   return (
-    <div className="bg-main-color sticky top-0 z-20 shadow-md">
+    <div className=" sticky top-0 z-20 shadow-md">
       <div className="p-1 font-bold flex text-lg justify-between mx-auto text-gray-800 md: pl-12 pr-12">
         <div className="flex flex-row items-center  hover:text-cool-blue-color">
           <Link
@@ -69,12 +71,13 @@ const Header = (props: Props) => {
             CONTACT
           </Link>
         </div>
-        <div className="pt-4 md:hidden">
+        <div className="pt-4">
           <Hamburger toggled={isOpen} toggle={setOpen} color="#656acd" />
         </div>
       </div>
+
       {isOpen ? (
-        <div className="flex flex-col pd-4 md:hidden">
+        <div className="flex flex-col pd-4 h-screen">
           <ul className="bg-main-color outline outline-2 outline-cool-blue-color">
             <Link
               className="cursor-pointer   hover:text-cool-blue-color "

@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-::-webkit-scrollbar {
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Karla&display=swap");
+/*::-webkit-scrollbar {
   height: 5px;
   width: 10px;
   background: transparent;
@@ -15,4 +15,4 @@
 
 ::-webkit-scrollbar-corner {
   background: blue;
-}
+}*/
