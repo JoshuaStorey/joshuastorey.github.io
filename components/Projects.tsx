@@ -74,7 +74,7 @@ const Projects = (props: Props) => {
       </div>
       <div
         id='container2'
-        className='xl:flex xl:flex-row items-center text-center justify-center pb-24'
+        className='xl:flex xl:flex-row md:flex md:flex-row items-center  justify-center text-center pb-24'
       >
         <div id='p1'>
           <Image
@@ -98,8 +98,9 @@ const Projects = (props: Props) => {
           </h1>
           <h1 className='py-2'>
             Hiking Data is a mobile application built to track your hiking data
-            and find nearby hikes. Utilizes a public api to fetch hikes nearby
-            your location and returns locations.
+            and find nearby hikes. <br />
+            Utilizes a public api to fetch hikes nearby your location and
+            returns locations.
           </h1>
           <span className=' bg-white inline-block border-2 border-black rounded-full px-3 py-1 text-sm font-semibold text-black mr-2 mb-2 '>
             Swift
